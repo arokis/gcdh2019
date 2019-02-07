@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ausschnitt aus dem Tagebuch von Samuel Thomas Soemmerring (1755-1830)</title>
+            <author><name type="person" ref="gnd:118805193" xml:id="STS">Samuel Thomas
+               Soemmerring</name></author>
+            <editor><name type="person" xml:id="MFZ">Max-Ferdinand Zeterberg</name></editor>
+            <editor><name type="person" xml:id="US">Uwe Sikora</name></editor>
+         </titleStmt>
+         <editionStmt>
+            <edition>Testedition</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher><name type="org" ref="gnd:1097637417">Niedersächsische Staats- und
+               Universitätsbibliothek Göttingen</name></publisher>
+            <pubPlace>
+               <name type="place" ref="geo:2918632">Göttingen</name>
+            </pubPlace>
+            <date type="publication">2019</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Distributed under
+                  the Creative Commons Attribution-ShareAlike 4.0 Generic (International)
+                  License.</licence>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Tagebücher von Samuel Thomas von Soemmerring</title>
+            <editor>
+               <name type="person" ref="gnd:121069060" xml:id="FD">Franz
+                  Dumont</name>
+            </editor>
+         </seriesStmt>
+         <sourceDesc>
+            <p>Frankfurt am Main, Universitätsbibliothek Johann Christian Senckenberg, Ms. Ff.
+               Soemmerring, Kapsel 1, Tagebuch 1806 (4°, 64 Seiten)</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="geo" matchPattern="([a-zA-Z0-9]+)"
+               replacementPattern="http://www.geonames.org/$1">
+               <p>URIs mit dem Präfix "geo" zielen auf Datensätze von Geonames.</p>
+            </prefixDef>
+            <prefixDef ident="gnd" matchPattern="([0-9]+)"
+               replacementPattern="http://d-nb.info/gnd/$1">
+               <p>URIs mit dem Präfix "gnd" zielen auf Datensätze der Gemeinsamen Normdatei.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2019-02-06" who="#MFZ">Hervorhebungen und Überschriftszeilen</change>
+            <change when="2019-02-05" who="#MFZ">Textstrukturen: div, p und lb</change>
+            <change when="2019-02-05" who="#MFZ">Header</change>
+            <change when="2019-02-04" who="#US">Konvertierung in XML</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <p><label type="Datumsangabe">[Dienstag] d<hi rend="italic">en</hi> 21. J<hi rend="italic">anuar</hi> [1806]</label><lb/>worked to no great purpose –<lb/>Prinzeß
+               Augusta reißt ab. <lb/>Brief v<hi rend="italic">on</hi> Wilhelm und Ritter.<lb/>Akademie Sitzung – Gesetze.
+               Impertinente Anmerkungen von Baader über <lb/>Einschlafen. Protocoll der lezten
+               Sitzung.<lb/>Deliberation wegen der Illumination. | 4<hi rend="small">r</hi><lb/>NachtEssen b<hi rend="italic">ey</hi> Goldner.
+               – Punsch.</p>
+         </div>
+         <div>
+            <p><label type="Datumsangabe">[Mittwoch] d<hi rend="italic">en</hi> 22. J<hi rend="italic">anuar</hi>.</label><lb/>Elende Nacht, Kopfweh –<lb/>F<hi rend="italic">ranzosen</hi> marschiren ab
+               – Moscati abgereist.<lb/>Carmeliter Apotheker – zu Vogeldorf. Spiritus verbessert.
+               <lb/>v<hi rend="italic">on</hi> Goldner zu Mittag gehabt. Inflammable Luft gemacht. destillirt.<lb/>Abends
+               Me<hi rend="italic">dizinal</hi>Rath Jacobi ladet mich ein [!] auf Samstag ein.</p>
+         </div>
+         <div>
+            <p><label type="Datumsangabe">[Donnerstag] d<hi rend="italic">en</hi> 23. J<hi rend="italic">anuar</hi>.</label><lb/>Zu Frau G<hi rend="italic">eheimrath</hi> Hartmann – Glaser Kircher.
+               <lb/>Vergeblich S<hi rend="italic">piritus</hi> V<hi rend="italic">itrioli</hi> gesucht. <lb/>NachM<hi rend="italic">ittags</hi> die Nervos pulmonum
+               gröblich zugerichtet.<lb/>Abends zu Ritter mit Goldner gefahren. <lb/>Auf der
+               Bibliothek Caldanis Kupfer gesehen, sind unter aller Kritik.</p>
+         </div>
+         <div>
+            <p><label type="Datumsangabe">[Freitag] d<hi rend="italic">en</hi> 24. Januar.</label><lb/>Engbrüstige Nacht, Schnupfen. <lb/>die Nerven der
+               Lungen zu präp<hi rend="italic">ariren</hi> angefangen.<lb/>b<hi rend="italic">ey</hi> Hartmann. die Bayern kommen angeführt vom
+               Könige , begleitet von<lb/>d<hi rend="italic">en</hi> Bürgern, mit 6 Kanonen zurück.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
